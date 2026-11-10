@@ -1,0 +1,20 @@
+{
+  "name": "wiz-codex-plugin",
+  "interface": {
+    "displayName": "Wiz"
+  },
+  "plugins": [
+    {
+      "name": "wiz",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}

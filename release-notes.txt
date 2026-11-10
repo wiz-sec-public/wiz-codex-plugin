@@ -1,0 +1,11 @@
+Wiz plugin for Codex 1.0.0
+
+First release. Six skills that bring Wiz findings and cloud context into Codex:
+- wiz-remediate: fix the repository's active Wiz risks with Green Agent guidance, after you confirm.
+- wiz-verify-fix: check a fix with a local Wiz CLI scan, the pull request scan and the Wiz issue status.
+- wiz-code-to-cloud: see what the repository deploys and what's exposed.
+- wiz-threat-impact: check whether a Threat Center advisory, supply-chain attack or CVE affects the repository.
+- wiz-codex-security-handoff: hand the repository's Wiz findings and their owners to Codex Security for triage.
+- wizos-migrate: migrate Dockerfiles to WizOS hardened base images.
+
+The plugin is read-only: it signs in with your own Wiz account and needs only the read:all permission.
