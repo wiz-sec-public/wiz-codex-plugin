@@ -8,12 +8,12 @@ Brings Wiz findings and cloud context into Codex through the [Wiz MCP server](ht
 
 Prerequisite: **Remote MCP Server** is enabled in Wiz under **Settings > Tenant > AI Features**.
 
-**Codex app:** open **Plugins**, choose **Add marketplace**, enter `wiz-sec/wiz-codex-plugin`, and install **Wiz**. The app opens Wiz's sign-in page during the install; choose **Link Account**.
+**Codex app:** open **Plugins**, choose **Add marketplace**, enter `wiz-sec-public/wiz-codex-plugin`, and install **Wiz**. The app opens Wiz's sign-in page during the install; choose **Link Account**.
 
 **Codex CLI:**
 
 ```bash
-codex plugin marketplace add wiz-sec/wiz-codex-plugin
+codex plugin marketplace add wiz-sec-public/wiz-codex-plugin
 codex plugin add wiz@wiz-codex-plugin
 codex mcp login Wiz-MCP    # browser OAuth; a CLI install doesn't sign in on its own
 ```

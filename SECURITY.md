@@ -20,4 +20,4 @@ Please coordinate public disclosure with our security team before publishing det
 
 ## Verifying authenticity
 
-The plugin's only official source is `https://github.com/wiz-sec/wiz-codex-plugin`. Install it only from there, and check that the `repository` field in `.codex-plugin/plugin.json` points to the same place.
+The plugin's only official source is `https://github.com/wiz-sec-public/wiz-codex-plugin`. Install it only from there, and check that the `repository` field in `.codex-plugin/plugin.json` points to the same place.
